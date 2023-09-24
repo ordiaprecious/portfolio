@@ -18,6 +18,11 @@ h1:hover{
     cursor: pointer;
     transition: 3s;
 }
+/* a{
+    /* position: relative; */
+    /* left: 640px; */
+    /* top: -70px; */
+
 h2{
     text-align: center;
     animation: move 2s ease-in-out;
@@ -25,10 +30,21 @@ h2{
 @keyframes move{
     0%{transform: translateX(-500px);}
 }
+h2:hover{
+    cursor: pointer;
+    color: yellow;
+}
 h3{
     text-align: center;
     animation: push 2s ease-in;
 }
 @keyframes push{
     0%{transform: translateX(500px);}
+}
+ h3:hover{
+    cursor: pointer;
+    color: yellowgreen;
+}
+#second{
+    height: 200px;
 }
